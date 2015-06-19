@@ -1,13 +1,15 @@
-# Created by .ignore support plugin (hsz.mobi)
 ### Maven
 target/
 
 ### Java
 *.class
 
-# Package Files #
+### Package files
 *.jar
 
+### Log files
+balabolka.log
 
 ### IntelliJ
-.idea
+.idea/
+*.iml
