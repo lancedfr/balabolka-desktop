@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<Group xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8"
+       fx:controller="com.lance.balabolka.controller.Screen3Controller">
+    <StackPane prefHeight="150.0" prefWidth="200.0">
+        <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #AAAABB;">
+            <Button layoutX="121.0" layoutY="100.0" mnemonicParsing="false"
+                    onAction="#handleScreen2ButtonAction" text="Screen2"/>
+            <Button layoutX="14.0" layoutY="100.0" mnemonicParsing="false"
+                    onAction="#handleScreen1ButtonAction" text="Screen1"/>
+            <Label fx:id="screenName" layoutX="76.0" layoutY="14.0" text="SCREEN3"/>
+            <TextField fx:id="textField" layoutX="26.0" layoutY="38.0"/>
+            <Label fx:id="labelA" layoutX="26.0" layoutY="67.0" onMouseClicked="#clearLabel"
+                   prefHeight="17.0" prefWidth="149.0" text="Label"/>
+        </AnchorPane>
+    </StackPane>
+</Group>
